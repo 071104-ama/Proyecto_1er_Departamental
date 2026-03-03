@@ -1,4 +1,4 @@
-# Evaluación Predictiva de Precipitaciones Pluviales (CDMX) 🌧️
+# Evaluación Predictiva de Precipitaciones (CDMX) 🌧️
 
 Este proyecto integra datos climáticos de **CONAGUA/SMN**, niveles de radiación solar y contaminantes ambientales para analizar e identificar patrones que influyen en las lluvias a escala regional (Ciudad de México).
 
@@ -6,7 +6,7 @@ Este proyecto integra datos climáticos de **CONAGUA/SMN**, niveles de radiació
 El objetivo principal es predecir la ocurrencia de precipitación (binarizada > 0) utilizando modelos de Machine Learning y Deep Learning, evaluando el impacto de variables como la temperatura media, radiación y partículas contaminantes.
 
 ## 🛠️ Herramientas Utilizadas
-- **Lenguaje:** Python (Google Colab)
+- **Lenguaje:** Python 
 - **Librerías principales:**
   - `Pandas` & `Numpy`: Procesamiento y limpieza de datos.
   - `Scikit-Learn`: Modelos clásicos y métricas de evaluación.
@@ -24,11 +24,5 @@ El objetivo principal es predecir la ocurrencia de precipitación (binarizada > 
 Se evaluaron 4 modelos principales:
 - Regresión Logística
 - Random Forest
-- **XGBoost** (Mejor desempeño en F1-Score)
+- XGBoost
 - LSTM
-
-**Insight Clave:** El modelo **XGBoost** demostró mayor precisión para este conjunto de datos tabulares. Los contaminantes (PM) mostraron una correlación no lineal con la lluvia, sugiriendo que actúan como núcleos de condensación bajo condiciones térmicas específicas.
-
----
-**Autor:** Amairani Citlali Ramos Aguilar  
-**Institución:** UNAM
